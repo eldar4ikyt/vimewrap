@@ -2917,7 +2917,7 @@ img {
 						<div class="tsd-comment tsd-typography">
 							<dl class="tsd-comment-tags">
 								<dt>example</dt>
-								<dd><p>Получение информации о токене (если он указан).</p>
+								<dd><p>Получение информации о токене (если он указан в конструкторе).</p>
 									<pre><code class="language-javascript"><span class="hljs-keyword">const</span> v = <span class="hljs-built_in">require</span>(<span class="hljs-string">"vimewrap"</span>);
 <span class="hljs-keyword">const</span> vimewrap = <span class="hljs-keyword">new</span> v();
 
@@ -2953,7 +2953,7 @@ img {
 						<div class="tsd-comment tsd-typography">
 							<dl class="tsd-comment-tags">
 								<dt>example</dt>
-								<dd><p>Возвращение некоторой информации о звании <code>LEADER</code>.</p>
+								<dd><p>Получение некоторой информации о звании <code>LEADER</code>.</p>
 									<pre><code class="language-javascript"><span class="hljs-keyword">const</span> v = <span class="hljs-built_in">require</span>(<span class="hljs-string">"vimewrap"</span>);
 <span class="hljs-keyword">const</span> vimeworld = <span class="hljs-keyword">new</span> v(<span class="hljs-string">"DE6bkFvo7RuKw2Nnpfv3jvGEkfTQDAd"</span>);
 
@@ -2977,7 +2977,7 @@ img {
 							</li>
 						</ul>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
-						<p>Возвращается объект из <a href="../globals.html#guildrank">guildRank</a>.</p>
+						<p>Ответ в виде объекта из <a href="../globals.html#guildrank">guildRank</a>.</p>
 					</li>
 				</ul>
 			</section>
@@ -2994,7 +2994,7 @@ img {
 						<div class="tsd-comment tsd-typography">
 							<dl class="tsd-comment-tags">
 								<dt>example</dt>
-								<dd><p>Возвращение некоторой информации о ранге <code>ADMIN</code>.</p>
+								<dd><p>Возвращение данных о привилегии <code>ADMIN</code>.</p>
 									<pre><code class="language-javascript"><span class="hljs-keyword">const</span> v = <span class="hljs-built_in">require</span>(<span class="hljs-string">"vimewrap"</span>);
 <span class="hljs-keyword">const</span> vimeworld = <span class="hljs-keyword">new</span> v(<span class="hljs-string">"DE6bkFvo7RuKw2Nnpfv3jvGEkfTQDAd"</span>);
 
@@ -3018,7 +3018,7 @@ img {
 							</li>
 						</ul>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
-						<p>Возвращается объект из <a href="../globals.html#rank">rank</a>.</p>
+						<p>Результат прямиком из объекта <a href="../globals.html#rank">rank</a>.</p>
 					</li>
 				</ul>
 			</section>
@@ -4187,7 +4187,7 @@ img {
 							<li>
 								<h5><span class="tsd-flag ts-flagOptional">Optional</span> name: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
 								<div class="tsd-comment tsd-typography">
-									<p>В данный момент доступен только язык <code>ru</code>, посему сей параметр стоит по дефолту (однако, есть возможность заменить на любой другой).</p>
+									<p>В данный момент доступен <strong>только язык <code>ru</code></strong>, посему сей параметр стоит по дефолту (однако, есть возможность заменить на любой другой).</p>
 								</div>
 							</li>
 						</ul>
@@ -4471,7 +4471,7 @@ img {
     <span class="hljs-built_in">console</span>.log(thing);
 })();
 
-<span class="hljs-comment">// Данный список тоже достаточно громадный - https://api.vimeworld.ru/misc/achievements</span></code></pre>
+<span class="hljs-comment">// Кхм, кхм - https://api.vimeworld.ru/misc/achievements</span></code></pre>
 								</dd>
 							</dl>
 						</div>
@@ -4709,7 +4709,7 @@ img {
 							</dl>
 						</div>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
-						<p>Возвращает список всех карт на VimeWorld.ru. Здесь могут быть игры, которых нет в ответе misc/games, например SWT. Технически это одна игра, но список карт для SW и SWT разный.</p>
+						<p>Возвращает список всех карт на VimeWorld.ru. Здесь могут быть игры, которых нет в ответе $<a href="vimewrap.html#miscgames">miscGames</a>, например SWT. Технически это одна игра, но список карт для SW и SWT разный.</p>
 					</li>
 				</ul>
 			</section>
